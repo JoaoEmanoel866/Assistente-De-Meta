@@ -129,6 +129,22 @@ button {
     
 }
 
+.select-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #9147ff;
+  font-size: 0.875rem;
+}
+
 button:hover {
    cursor: pointer;
    transform: translateY(-2px);

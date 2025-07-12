@@ -23,14 +23,16 @@
                 
                 <form id="form">
                     <input id="apiKey" type="password" placeholder="Informe a API KEY do Gemini" required>
-
-                    <select id="gameSelect" required>
-                        <option value="">Selecione um Jogo</option>
-                        <option value="lol">League of Legends</option>
-                        <option value="valorant">Valorant</option>
-                        <option value="lolwr">League of Legends: Wild Rift</option>
-
-                    </select>
+                    
+                    <div class="select-wrapper">
+                        <select id="gameSelect" required icon="">
+                            <option value="">Selecione um Jogo</option>
+                            <option value="lol">League of Legends</option>
+                            <option value="valorant">Valorant</option>
+                            <option value="lolwr">League of Legends: Wild Rift</option>
+                            
+                        </select>
+                    </div>
 
                     <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC ..." required>
                     
